@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* heroImage */
+.heroImage img {
+  width: 100%;
+}
+
+/* About */
+
+.about {
+  margin-top: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.aboutHeading {
+  text-align: center;
+}
+
+.aboutImg {
+}
+
+.services {
+  margin-top: 10px;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.service img:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+}
+
+.service img {
+  max-width: 90%;
+  background-color: #b5d4d9;
+  border-radius: 10px;
+}
+
+.servicesInfo {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 1rem;
+  padding: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.serviceHeading {
+  text-align: center;
+}
+
+.serviceParagraph {
+  margin-top: 10px;
+}
+
+.projectCompleted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.ProjectNumber {
+  margin-left: 20px;
+  font-size: 100px;
+  color: white;
+}
+
+.carousel {
+  margin-top: 10px;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+}
